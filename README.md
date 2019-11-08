@@ -105,3 +105,4 @@ with lab06, look online and see if the lab07 instructions are ready.
 | `./checkLocalhost.py` | to check the syntax of your `localhost.json` file |
 | `./setHerokuEnv.py` --app APPNAME` | to check the syntax of your `heroku.json` file  and set the configuration variables for Heroku app `APPNAME` (requires logging in to Heroku CLI first)|
 
+https://ucsb-cs56-f19.github.io/lab07-Ulramok/
