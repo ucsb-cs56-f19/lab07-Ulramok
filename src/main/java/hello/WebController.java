@@ -60,6 +60,7 @@ public class WebController {
                                        EqSearch eqSearch) {
         EarthquakeQueryService e = new EarthquakeQueryService();
 
+
         model.addAttribute("eqSearch", eqSearch);
 
         String json = e.getJSON(eqSearch.getDistance(), eqSearch.getMinmag());
@@ -67,6 +68,11 @@ public class WebController {
 
         FeatureCollection featureCollection = FeatureCollection.fromJSON(json);
         model.addAttribute("featureCollection",featureCollection);
+
+
+        model.addAttribute("eqSearch", eqSearch);
+        String json = e.getJSON(eqSearch.getDistance(), eqSearch.getMinmag());
+        model.addAttribute("json", json);
 
         return "earthquakes/results";
     }
