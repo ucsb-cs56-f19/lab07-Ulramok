@@ -6,7 +6,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 @SpringBootApplication
-public class Application extends WebSecurityConfigurerAdapter {
+public class åApplication extends WebSecurityConfigurerAdapter {
 
     public static void main(String[] args) {
 	SpringApplication.run(Application.class, args);
