@@ -28,12 +28,12 @@ public class EarthquakeSearchTest {
 
     @MockBean
     private ClientRegistrationRepository crr;
-    /*
+
     @Test
     public void getEarthquakeSearch() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/earthquakes/search").accept(MediaType.TEXT_HTML))
                 .andExpect(status().isOk())
                 .andExpect(xpath("//title").exists())
                 .andExpect(xpath("//title").string("Earthquakes Search"));
-    }*/
+    }
 }
