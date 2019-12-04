@@ -17,3 +17,6 @@ target
 # For Java
 *.class
 
+#IntelliJ
+*.iml
+*.idea
