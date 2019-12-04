@@ -3,6 +3,11 @@ A simple Spring Boot webapp using:
 * Pulling in Bootstrap from CDN.
 * Github OAuth
 
+Link to javadoc and jacooco https://ucsb-cs56-f19.github.io/lab07-Ulramok/
+
+Link to Travis CI: https://travis-ci.org/ucsb-cs56-f19/lab07-Ulramok?utm_medium=notification&utm_source=github_status
+
+Link to Heroku Page: https://cs56-f19-lab07-ulramok.herokuapp.com/
 
 # Running on Localhost.
 
@@ -105,9 +110,4 @@ with lab06, look online and see if the lab07 instructions are ready.
 | `./checkLocalhost.py` | to check the syntax of your `localhost.json` file |
 | `./setHerokuEnv.py` --app APPNAME` | to check the syntax of your `heroku.json` file  and set the configuration variables for Heroku app `APPNAME` (requires logging in to Heroku CLI first)|
 
-Link to javadoc and jacooco https://ucsb-cs56-f19.github.io/lab07-Ulramok/
-
-Link to Travis CI: https://travis-ci.org/ucsb-cs56-f19/lab07-Ulramok?utm_medium=notification&utm_source=github_status
-
-Link to Heroku Page: https://cs56-f19-lab07-ulramok.herokuapp.com/
 
